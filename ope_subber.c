@@ -10,13 +10,13 @@
 void sq_sub(stack_t **head, unsigned int counter)
 {
 	stack_t *temp_holder;
-	int sub, nd;
+	int minus, xy;
 
 	temp_holder = *head;
-	for (nd = 0; temp_holder != NULL; nd++)
+	for (xy = 0; temp_holder != NULL; xy++)
 		temp_holder = temp_holder->next;
 
-	if (nd < 2)
+	if (xy < 2)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", counter);
 		fclose(bus_data.file);
@@ -25,8 +25,8 @@ void sq_sub(stack_t **head, unsigned int counter)
 		exit(EXIT_FAILURE);
 	}
 	temp_holder = *head;
-	sub = temp_holder->next->n - temp_holder->n;
-	temp_holder->next->n = sub;
+	minus = temp_holder->next->n - temp_holder->n;
+	temp_holder->next->n = minus;
 	*head = temp_holder->next;
 	free(temp_holder);
 }
