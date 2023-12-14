@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
-* sq_addnode - add node to top of stack
+* sq_addnode - add node to top of stack.
 * @head: first node
 * @n: new value to node
 * Return: none
