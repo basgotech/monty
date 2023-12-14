@@ -2,7 +2,7 @@
 
 /**
  * sq_stack - free stack
- * @head: first node
+ * @head: first node.
  * @counter: line counter
  * Return: 0
 */
