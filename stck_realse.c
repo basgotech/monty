@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
- * release_stack - free doubly linked list
+ * release_stack - free doubly linked list.
  * @head: first node of stacks
  * Return: 0
  */
