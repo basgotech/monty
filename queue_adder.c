@@ -2,7 +2,7 @@
 
 /**
  * sq_addqueue - add node to tail of queue
- * @n: new value
+ * @n: new value.
  * @head: head of the queues
  * Return: 0
  */
