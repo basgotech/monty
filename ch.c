@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
- * sq_pchar - print the char at the top of stack
+ * sq_pchar - print the char at the top of stack.
  * @head: stack head
  * @counter: line counter of char
  * Return: 0
