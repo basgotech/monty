@@ -56,39 +56,28 @@ typedef struct bus_s
 	int lifi;
 }  bus_t;
 extern bus_t bus_data;
-
 ssize_t getline(char **lineptr, size_t *n, FILE *stream);
-
-char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
-ssize_t getstdin(char **lineptr, int file);
-
-char  *clean_line(char *content);
 void release_stack(stack_t *head);
-
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-
+void sq_div(stack_t **head, unsigned int counter);
+void sq_mul(stack_t **head, unsigned int counter);
+void sq_mod(stack_t **head, unsigned int counter);
+void sq_pchar(stack_t **head, unsigned int counter);
+void sq_pstr(stack_t **head, unsigned int counter);
+void sq_rotl(stack_t **head, unsigned int counter);
+void sq_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
+void sq_addnode(stack_t **head, int n);
+void sq_addqueue(stack_t **head, int n);
+void sq_queue(stack_t **head, unsigned int counter);
+void sq_stack(stack_t **head, unsigned int counter);
+int _atoi(char *str);
 void sq_push(stack_t **head, unsigned int number);
 void sq_pall(stack_t **head, unsigned int number);
 void sq_pint(stack_t **head, unsigned int number);
 void sq_pop(stack_t **head, unsigned int counter);
 void sq_swap(stack_t **head, unsigned int counter);
 void sq_nop(stack_t **head, unsigned int counter);
-
 void sq_add(stack_t **head, unsigned int counter);
 void sq_sub(stack_t **head, unsigned int counter);
-void sq_div(stack_t **head, unsigned int counter);
-void sq_mul(stack_t **head, unsigned int counter);
-void sq_mod(stack_t **head, unsigned int counter);
-
-void sq_pchar(stack_t **head, unsigned int counter);
-void sq_pstr(stack_t **head, unsigned int counter);
-
-void sq_rotl(stack_t **head, unsigned int counter);
-void sq_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
-
-void sq_addnode(stack_t **head, int n);
-void sq_addqueue(stack_t **head, int n);
-void sq_queue(stack_t **head, unsigned int counter);
-void sq_stack(stack_t **head, unsigned int counter);
 
 #endif

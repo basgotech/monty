@@ -31,7 +31,7 @@ void sq_push(stack_t **head, unsigned int counter)
 		free(bus_data.content);
 		release_stack(*head);
 		exit(EXIT_FAILURE); }
-	x = atoi(bus_data.arg);
+	x = _atoi(bus_data.arg);
 	if (bus_data.lifi == 0)
 		sq_addnode(head, x);
 	else
