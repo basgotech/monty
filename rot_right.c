@@ -2,7 +2,7 @@
 
 /**
  * sq_rotr - rotate stack element to the bottom
- * @head: first node of stack
+ * @head: first node of stack.
  * @counter: line counters
  * Return: 0
  */
