@@ -2,7 +2,7 @@
 
 /**
  * execute - execute opcode of
-* @stack: stack of linked list
+* @stack: stack of linked list.
 * @counter: line counters
 * @file: pointer to monty file streams
 * @content: line content
