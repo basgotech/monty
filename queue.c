@@ -3,7 +3,7 @@
 /**
  * sq_queue - print first node of queue
  * @head: first node of queue (unused)
- * @counter: line counters
+ * @counter: line counters.
  * Return: 0
  */
 
