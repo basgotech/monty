@@ -2,7 +2,7 @@
 
 /**
  * sq_div - divide first 2 elements of the stack
- * @head: pointer to pointer to first node
+ * @head: pointer to pointer to first node.
  * @counter: line counter
  * Return: 0
  */
