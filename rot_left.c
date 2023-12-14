@@ -3,7 +3,7 @@
 /**
  * sq_rotl- rotate stack element to the top
  * @head: first node of stack
- * @counter: line counters
+ * @counter: line counters.
  * Return: 0
  */
 
