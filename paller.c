@@ -2,7 +2,7 @@
 
 /**
 * sq_pall - print everything in stack
-* @head: pointer to pointer of first node
+* @head: pointer to pointer of first node.
 * @counter: line counter
 * Return: 0
 */
