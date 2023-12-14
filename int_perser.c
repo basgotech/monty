@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
- *_atoi - converts a string to an integer
+ *_atoi - converts a string to an integers
  *@str: the string to be converted
  *Return: 0 if no numbers in string
  */
