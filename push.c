@@ -3,7 +3,7 @@
 /**
  * sq_push - function that adds node to the stack
  * @head: double head pointer to the stack
- * @counter: line counts
+ * @counter: line counts.
  * Return: 0
  */
 void sq_push(stack_t **head, unsigned int counter)
