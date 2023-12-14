@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
- * sq_nop - do nothing
+ * sq_nop - do nothing.
  * @head: pointer to pointer of first node
  * @counter: line counters
  * Return: 0
