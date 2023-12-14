@@ -2,7 +2,7 @@
 
 /**
 * sq_swap - swap first two elements
-* @head: first node
+* @head: first node.
 * @counter: line counter
 * Return: 0
 */
