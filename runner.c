@@ -6,7 +6,7 @@ bus_t bus_data = {NULL, NULL, NULL, 0};
 /**
 * main - monty code interpreter
 * @argc: argument counter
-* @argv: argument vector
+* @argv: argument vector.
 * Return: always 0
 */
 int main(int argc, char *argv[])
