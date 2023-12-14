@@ -2,7 +2,7 @@
 
 /**
  * sq_pop - print top node on stack
- * @head: pointer to pointer of first node
+ * @head: pointer to pointer of first node.
  * @counter: line counters
  * Return: 0
  */
