@@ -1,7 +1,7 @@
 #include "monty_header.h"
 
 /**
- * sq_pstr - print string at the top of stack
+ * sq_pstr - print string at the top of stack.
  * @head: first node of linked list
  * @counter: line counters
  * Return: 0
