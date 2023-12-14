@@ -2,7 +2,7 @@
 
 /**
  * sq_add - add first 2 elements of the stack
- * @head: pointer to pointer to first node
+ * @head: pointer to pointer to first node.
  * @counter: line counters
  * Return: none
  */
