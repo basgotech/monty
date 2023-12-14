@@ -2,7 +2,7 @@
 
 /**
  * sq_mod - compute modulos of two elements in stack
- * @head: pointer to pointer to first node
+ * @head: pointer to pointer to first node.
  * @counter: line counter
  * Return: 0
  */
